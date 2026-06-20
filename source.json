@@ -1,0 +1,35 @@
+{
+  "name": "JuGroup Apps",
+  "subtitle": "Apps von Jumix / JuGroup",
+  "description": "Offizielle JuGroup AltStore Source für JuSuite.",
+  "iconURL": "https://jumix25.github.io/JuSuite/icon.png",
+  "headerURL": "https://jumix25.github.io/JuSuite/header.png",
+  "website": "https://jumix25.github.io/JuSuite/",
+  "tintColor": "#00d6c9",
+  "apps": [
+    {
+      "name": "JuSuite",
+      "bundleIdentifier": "com.jumix.JuSuite",
+      "developerName": "JuGroup",
+      "subtitle": "Homelab Dashboard",
+      "localizedDescription": "JuSuite bündelt deine Homelab-Dienste wie Open WebUI, Portainer, Pi-hole, Jellyfin und Home Assistant in einer modernen iPhone-App.",
+      "iconURL": "https://jumix25.github.io/JuSuite/icon.png",
+      "tintColor": "#00d6c9",
+      "versions": [
+        {
+          "version": "0.1",
+          "buildVersion": "1",
+          "date": "2026-06-20T19:50:00+02:00",
+          "downloadURL": "https://jumix25.github.io/JuSuite/JuSuite.ipa",
+          "localizedDescription": "Erste JuSuite Beta für AltStore.",
+          "minOSVersion": "15.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {}
+      }
+    }
+  ],
+  "news": []
+}
